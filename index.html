@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CSS vs. JS</title>
+</head>
+<body>
+    <header>
+        <h1>Trocar imagem ao passar o mouse!</h1>
+    </header>
+    <section>
+        <figure id="goku1">
+            <img src="./img/goku.png" alt="Goku" 
+            onmouseover="this.src='./img/goku_SS.png'"
+            onmouseout="this.src='./img/goku.png'">
+            <figcaption>
+                Usando mouseover/mouseout
+            </figcaption>
+        </figure>
+
+        <figure id="goku2">
+            <img>
+            <figcaption>
+                Usando CSS
+            </figcaption>
+        </figure>
+    </section>
+</body>
+</html>

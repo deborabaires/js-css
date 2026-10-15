@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: cornflowerblue;
+    color: azure;
+    text-align: center;
+    padding: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+figure, figure img{
+    height: 256px;
+}
+
+#goku2{
+    background-image: url('../img/goku.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#goku2:hover {
+    background-image: url('../img/goku_SS.png');
+}
